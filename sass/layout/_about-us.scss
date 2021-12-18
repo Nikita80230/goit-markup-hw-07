@@ -1,0 +1,61 @@
+.about-us {
+  text-align: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.about-us__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.about-us__background {
+  margin-bottom: 30px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  display: flex;
+  width: 100%;
+  min-height: 120px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.about-us__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.about-us__item {
+  & + & {
+    margin-left: 30px;
+  }
+}
+
+.about-us__item {
+  width: 270px;
+  text-align: start;
+  margin: 0;
+}
+
+.about-us__title {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--main-title-color);
+}
+.about-us__text {
+  margin: 0;
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--text-color);
+}
